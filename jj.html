@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./jj.css" />
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+		<title>Form</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Example form</h1>
+
+			<div class="box-titles">
+				<p class="box__item">
+					All
+					<span>12</span>
+				</p>
+				<p class="box__item">
+					Need
+					<span>7</span>
+				</p>
+				<p class="box__item">
+					Success
+					<span class="suc">5/12</span>
+				</p>
+				<p class="box__item">
+					Error
+					<span class="err">7/12</span>
+				</p>
+			</div>
+			<form class="form">
+				<div class="form-container">
+				  <div class="form__box">
+					<div class="input__box">
+					  <p>Name</p>
+					  <input type="text" name="name" id="name" class="required" />
+					  <span class="error-msg"></span>
+					  <i class="bx bxs-error"></i>
+					</div>
+					<div class="input__box">
+					  <p>Surname</p>
+					  <input type="text" name="surname" />
+					</div>
+					<div class="input__box">
+					  <p>Email</p>
+					  <input type="text" id="email" class="required" />
+					  <span class="error-msg"></span>
+					  <i class="bx bxs-error"></i>
+					</div>
+					<div class="input__box">
+					  <p>Phone</p>
+					  <input type="text" id="phone" />
+					</div>
+					<div class="input__box">
+					  <p>Mom's Name</p>
+					  <input type="text" />
+					</div>
+				  </div>
+				  <div class="form__box">
+					<div class="input__box">
+					  <p>Age</p>
+					  <input type="text" class="required" id="age" name="age" />
+					  <span class="error-msg"></span>
+					  <i class="bx bxs-error"></i>
+					</div>
+					<div class="input__box">
+					  <p>About you</p>
+					  <input type="text" class="required" id="text" name="about" />
+					  <span class="error-msg"></span>
+					  <i class="bx bxs-error"></i>
+					</div>
+					<div class="input__box">
+					  <p>Js</p>
+					  <input type="text" class="required" id="text" name="js" />
+					  <span class="error-msg"></span>
+					  <i class="bx bxs-error"></i>
+					</div>
+					<div class="input__box">
+					  <p>Html</p>
+					  <input type="text" class="required" id="text" name="html" />
+					  <span class="error-msg"></span>
+					  <i class="bx bxs-error"></i>
+					</div>
+					<div class="input__box">
+					  <p>Css</p>
+					  <input type="text" class="required" id="text" name="css" />
+					  <span class="error-msg"></span>
+					  <i class="bx bxs-error"></i>
+					</div>
+				  </div>
+				</div>
+				<button class="btn">Save changes</button>
+			  </form>
+			  <div class="profil">
+				<div class="box">
+					<h2>Name</h2>
+					<p class="newsurname">___</p>
+					<div class="text-box">
+						<h2>Surname</h2>
+						<p class="newname">____</p>
+						<h2>Age</h2>
+						<p class="newage">___</p>
+					</div>
+				</div>
+			  </div>
+		</div>
+	</body>
+
+	<script src="./jj.js"></script>
+</html>
